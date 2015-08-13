@@ -4,7 +4,9 @@ io_ser: to use this tool to import TIA .ser format images into Nion Swift, place
 
 If Swift is properly installed, you should be able to import .ser files in the UI with the import dialog under File -> Import...
 
-Tested and works for 1D collections of 2D CCD acquisitions (e.g. a line-scan of diffraction images in STEM) and single EELS spectra; not fully functional for 2D collections of 2D CCD acquisitions and untested for collections of EELS spectra.
+Tested and works for collections of 2D CCD acquisitions (e.g. a 1D or 2D scan of diffraction images in STEM) and single EELS spectra; untested for collections of EELS spectra, but theoretically works. Warning: loads all data in the .ser file into memory all at once, so be cautious with large datasets.
+
+Please let me know if you find bugs.
 
 (adapted from https://bitbucket.org/linoleum13/openncem/src)
 
