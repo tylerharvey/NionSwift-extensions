@@ -1,4 +1,4 @@
-# UO-microscopy-tools
+# NionSwift-extensions
 
 io_ser: to use this tool to import TIA .ser format images into Nion Swift, place this folder in the PlugIns folder of your Nion Swift directory and then run Swift, like any other Nion Swift extension (https://github.com/nion-software/extensions).
 
